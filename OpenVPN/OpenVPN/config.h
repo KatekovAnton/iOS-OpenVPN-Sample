@@ -20,7 +20,7 @@
 #define EMPTY_ARRAY_SIZE 0
 
 /* Enable client capability only */
-/* #undef ENABLE_CLIENT_ONLY */
+#define ENABLE_CLIENT_ONLY 1
 
 /* Enable client/server capability */
 #define ENABLE_CLIENT_SERVER 1
@@ -53,7 +53,7 @@
 /* #undef ENABLE_IPROUTE */
 
 /* Enable LZO compression library */
-/* #undef ENABLE_LZO */
+#define ENABLE_LZO 1
 
 /* Enable LZO stub capability */
 /* #undef ENABLE_LZO_STUB */
@@ -319,9 +319,11 @@
 
 /* Define to 1 if you have the <lzo/lzo1x.h> header file. */
 /* #undef HAVE_LZO_LZO1X_H */
+#define HAVE_LZO_LZO1X_H 1
 
 /* Define to 1 if you have the <lzo/lzoutil.h> header file. */
 /* #undef HAVE_LZO_LZOUTIL_H */
+#define HAVE_LZO_LZOUTIL_H 1
 
 /* Define to 1 if you have the <memory.h> header file. */
 #define HAVE_MEMORY_H 1
